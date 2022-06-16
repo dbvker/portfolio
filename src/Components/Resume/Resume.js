@@ -8,8 +8,8 @@ const Resume = () => {
     return (
         <div className='resume-wrapper' id='resume'>
             <div className='container'>
-                <h1>My Resume</h1>
-                <object data={ResumePDF} className='resume-obj' width='800' height='800'></object>
+                <h1>📝 My Resume</h1>
+                <object data={ResumePDF} className='resume-obj' height='800'></object>
             </div>
         </div>
     );

@@ -23,9 +23,9 @@ const Welcome = () => {
               {isExploding && <center><ConfettiExplosion className='confetti' /></center>}
               <img src={PicOfMe} className='welcome-avi' alt='me :)' onClick={handleClick} />
               
-                <div className='welcome-name-text'>Hey, I'm Dylan!</div>
-                <p>Full Stack Web Development</p>
-                <p><u>Find me here</u></p>
+                <div className='welcome-name-text'>Hey 👋, I'm Dylan!</div>
+                <p>💻 Full Stack Web Development</p>
+                <p>📍 <u>Find me here!</u></p>
                 <div className='welcome-find-me'>
                     <a href='https://www.linkedin.com/in/dylanmbaker/' target='_blank' rel='noreferrer'>
                         <img src={LinkedInIcon} alt='LinkedIn logo' />

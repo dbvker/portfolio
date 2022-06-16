@@ -13,6 +13,9 @@
 }
 
 .resume-obj {
-  width: 100%;
+  height: auto;
+  min-height: 600px;
+  width: 90%;
+  max-width: 1500px;
   background-color: red;
 }
