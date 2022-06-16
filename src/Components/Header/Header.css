@@ -1,5 +1,5 @@
 header {
-    background: #4A1AB0;
+    background: #4a1ab0;
     color: #ffffff;
     padding: 30px;
     font-size: 20px;
@@ -45,4 +45,65 @@ header .container {
 
 .header-link li a:hover {
     text-decoration: underline;
+}
+
+.header-link-right {
+    display: block;
+}
+
+.nav-btn {
+    display: none;
+}
+
+/* Mobile nav menu */
+.menu-nav {
+    display: none;
+}
+
+.menu-nav .menu-nav-container {
+    text-align: right;
+}
+
+.menu-nav-closed {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .header-link-right {
+        display: none;
+    }
+
+    /* Mobile nav menu */
+    .nav-btn {
+        display: block;
+    }
+    .menu-nav {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        right: 0;
+        top: 0;
+        padding: 30px;
+        background: #4a1ab0;
+        z-index: 1000;
+        user-select: none;
+        display: block;
+    }
+
+    .menu-nav-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-nav .menu-nav-container {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 0 1%;
+        text-align: right;
+    }
+
+    .menu-nav-closed {
+        display: none;
+    }
 }
