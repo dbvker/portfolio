@@ -1,0 +1,46 @@
+.welcome-wrapper {
+  height: calc(100vh - 115px);
+  /* height: auto; */
+  background: #4A1AB0;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  z-index: 10;
+  position: relative;
+}
+
+.welcome-wrapper .container {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.welcome-wrapper .container .welcome-avi {
+  border-radius: 250px;
+  height: 200px;
+  -webkit-user-drag: none;
+  z-index: 3;
+  position: relative;
+}
+
+.welcome-wrapper .container .confetti {
+  display: flex !important;
+  z-index: 4 !important;
+  top: 1000px !important;
+}
+
+.welcome-wrapper .container .welcome-name-text {
+  font-size: 46px;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.welcome-wrapper .container .welcome-find-me {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
+.welcome-wrapper .container .welcome-find-me img {
+  height: 40px;
+}

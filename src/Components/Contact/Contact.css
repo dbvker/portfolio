@@ -1,0 +1,50 @@
+.contact-wrapper {
+  height: auto;
+  background: #a53860;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  z-index: 10;
+  position: relative;
+}
+
+.contact-wrapper .container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contact-wrapper .container input {
+  height: 40px;
+  width: 55%;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.contact-wrapper .container textarea {
+  height: 100px;
+  width: 55%;
+  border: none;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: 'roboto';
+  font-size: 14px;
+  outline: none;
+}
+
+.contact-wrapper .container button {
+  height: auto;
+  width: 55%;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'roboto';
+  font-size: 14px;
+  cursor: pointer;
+  background: #3f091d;
+  color: #ffffff;
+}

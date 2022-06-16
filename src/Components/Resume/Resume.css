@@ -1,0 +1,18 @@
+.resume-wrapper {
+  height: auto;
+  background: #4361ee;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  z-index: 10;
+  position: relative;
+}
+
+.resume-wrapper .container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.resume-obj {
+  width: 100%;
+  background-color: red;
+}
