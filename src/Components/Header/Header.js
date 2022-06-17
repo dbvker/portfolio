@@ -16,7 +16,7 @@ function Header() {
         <header>
             <div className='container'>
                 <ul className='header-link'>
-                    <p>Dylan Baker</p>
+                    <p><strong>Dylan Baker</strong></p>
                     <li>
                         <a href='https://www.linkedin.com/in/dylanmbaker/' target='_blank' rel='noreferrer'>
                             <img src={LinkedInIcon} alt='LinkedIn logo' />
