@@ -51,7 +51,7 @@ function Header() {
                 <div className='menu-nav-container'>
                     <div className='menu-nav-header'>
                         <ul className='header-link'>
-                            <p>Dylan Baker</p>
+                            <p><strong>Dylan Baker</strong></p>
                             <li>
                                 <a href='https://www.linkedin.com/in/dylanmbaker/' target='_blank' rel='noreferrer'>
                                     <img src={LinkedInIcon} alt='LinkedIn logo' />
@@ -71,7 +71,6 @@ function Header() {
                                 <rect y='60' width='100' height='10' fill='#ffffff'></rect>
                             </svg>
                             </ul>
-                            
                         </nav>
                     </div>
                     <div className='menu-nav-links'>
