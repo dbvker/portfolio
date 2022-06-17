@@ -48,3 +48,9 @@
   background: #3f091d;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 900px) {
+  .contact-wrapper .container input, .contact-wrapper .container textarea, .contact-wrapper .container button {
+    width: 90%;
+  }
+}
