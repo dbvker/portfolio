@@ -74,6 +74,19 @@ function Header() {
                             
                         </nav>
                     </div>
+                    <div className='menu-nav-links'>
+                        <ul>
+                            <li>
+                                <a href='#work'>Work</a>
+                            </li>
+                            <li>
+                                <a href='#resume'>Resume</a>
+                            </li>
+                            <li>
+                                <a href='#contact'>Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
