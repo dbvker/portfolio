@@ -1,6 +1,6 @@
 .welcome-wrapper {
-  height: calc(100vh - 115px);
-  /* height: auto; */
+  min-height: calc(100vh - 115px);
+  height: auto;
   background: #4A1AB0;
   color: #FFFFFF;
   box-sizing: border-box;

@@ -9,7 +9,7 @@ const Resume = () => {
         <div className='resume-wrapper' id='resume'>
             <div className='container'>
                 <h1>📝 My Resume</h1>
-                <object data={ResumePDF} className='resume-obj'></object>
+                <object data={ResumePDF} type='application/pdf' className='resume-obj'></object>
             </div>
         </div>
     );
