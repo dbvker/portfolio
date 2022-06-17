@@ -12,38 +12,32 @@
   padding: 40px 0;
 }
 
-.contact-wrapper .container input {
-  height: 40px;
+.contact-wrapper .container input, .contact-wrapper .container textarea, .contact-wrapper .container button {
   width: 55%;
   border: none;
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  font-size: 14px;
   outline: none;
+  font-size: 14px;
+  border-radius: 10px;
+  transition: 350ms;
+}
+
+.contact-wrapper .container input {
+  height: 40px;
+  padding: 15px;
+  margin-bottom: 10px;
 }
 
 .contact-wrapper .container textarea {
   height: 100px;
-  width: 55%;
-  border: none;
   padding: 15px;
   margin-bottom: 10px;
-  border-radius: 10px;
   font-family: 'roboto';
-  font-size: 14px;
-  outline: none;
 }
 
 .contact-wrapper .container button {
   height: auto;
-  width: 55%;
-  border: none;
-  outline: none;
   padding: 15px;
-  border-radius: 10px;
   font-family: 'roboto';
-  font-size: 14px;
   cursor: pointer;
   background: #3f091d;
   color: #ffffff;
@@ -52,5 +46,6 @@
 @media only screen and (max-width: 900px) {
   .contact-wrapper .container input, .contact-wrapper .container textarea, .contact-wrapper .container button {
     width: 90%;
+    transition: 350ms;
   }
 }
