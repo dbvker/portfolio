@@ -77,13 +77,13 @@ function Header() {
                     <div className='menu-nav-links'>
                         <ul>
                             <li>
-                                <a href='#work'>Work</a>
+                                <a href='#work' onClick={() => setNavOpen(false)}>Work</a>
                             </li>
                             <li>
-                                <a href='#resume'>Resume</a>
+                                <a href='#resume' onClick={() => setNavOpen(false)}>Resume</a>
                             </li>
                             <li>
-                                <a href='#contact'>Contact</a>
+                                <a href='#contact' onClick={() => setNavOpen(false)}>Contact</a>
                             </li>
                         </ul>
                     </div>
