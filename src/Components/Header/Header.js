@@ -31,16 +31,16 @@ function Header() {
                 <nav>
                     <ul className='header-link header-link-right'>
                         <li>
-                            <a href='#work'>Work</a>
+                            <a href='#work'>🛠️ Work</a>
                         </li>
                         <li>
-                            <a href='#resume'>Resume</a>
+                            <a href='#resume'>📝 Resume</a>
                         </li>
                         <li>
-                            <a href='#contact'>Contact</a>
+                            <a href='#contact'>💬 Contact</a>
                         </li>
                     </ul>
-                    <svg className='nav-btn' viewBox='0 0 100 80' width='20' height='20' onClick={handleClick}>
+                    <svg className='nav-btn' style={{cursor: 'pointer'}} viewBox='0 0 100 80' width='20' height='20' onClick={handleClick}>
                         <rect width='100' height='10' fill='#ffffff'></rect>
                         <rect y='30' width='100' height='10' fill='#ffffff'></rect>
                         <rect y='60' width='100' height='10' fill='#ffffff'></rect>
@@ -65,25 +65,22 @@ function Header() {
                         </ul>
                         <nav>
                             <ul className='header-link'>
-                                <svg className='nav-btn' viewBox='0 0 100 80' width='20' height='20' onClick={handleClick}>
-                                <rect width='100' height='10' fill='#ffffff'></rect>
-                                <rect y='30' width='100' height='10' fill='#ffffff'></rect>
-                                <rect y='60' width='100' height='10' fill='#ffffff'></rect>
+                            <svg xmlns="http://www.w3.org/2000/svg" style={{cursor: 'pointer'}} height="18" width='16' viewBox="0 0 329.26933 329" onClick={handleClick}>
+                                <path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0" fill='#FFFFFF' />
                             </svg>
                             </ul>
-                            
                         </nav>
                     </div>
                     <div className='menu-nav-links'>
                         <ul>
                             <li>
-                                <a href='#work' onClick={() => setNavOpen(false)}>Work</a>
+                                <a href='#work' onClick={() => setNavOpen(false)}>🛠️ Work</a>
                             </li>
                             <li>
-                                <a href='#resume' onClick={() => setNavOpen(false)}>Resume</a>
+                                <a href='#resume' onClick={() => setNavOpen(false)}>📝 Resume</a>
                             </li>
                             <li>
-                                <a href='#contact' onClick={() => setNavOpen(false)}>Contact</a>
+                                <a href='#contact' onClick={() => setNavOpen(false)}>💬 Contact</a>
                             </li>
                         </ul>
                     </div>
