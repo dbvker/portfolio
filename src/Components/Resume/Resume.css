@@ -8,7 +8,10 @@
 }
 
 .resume-wrapper .container {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 40px 0;
 }
 
@@ -17,6 +20,28 @@
   min-height: 800px;
   width: 90%;
   max-width: 1500px;
+  margin: 0 auto;
+}
+
+.download-btn {
+  min-width: 200px;
+  width: auto;
+  margin: 50px auto;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.4);
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+}
+
+.download-btn a{
+  text-decoration: none;
+  color: red;
 }
 
 @media only screen and (max-width: 700px) {
