@@ -41,6 +41,8 @@
   cursor: pointer;
   background: #3f091d;
   color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 900px) {
