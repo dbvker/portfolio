@@ -28,7 +28,9 @@ const Work = () => {
                         return (
                             <div className='work-item-container' key={index}>
                                 <div className='work-item-title'>{item.title}</div>
-                                <img src={item.image} alt={item.title} />
+                                <a href={item.siteLink} target='_blank' rel="noreferrer">
+                                    <img src={item.image} alt={item.title} />
+                                </a>
                                 <div className='work-item-stack'>
                                     <div className='work-item-stack-title'>Tech Stack</div>
                                     <strong>Front End: </strong>{item.frontEndTech.join(', ')}<br />
