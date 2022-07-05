@@ -5,7 +5,7 @@ import './Welcome.css';
 
 import GithubIcon from '../../Assets/github.png';
 import LinkedInIcon from '../../Assets/linkedin.png';
-import PicOfMe from '../../Assets/pic_of_me.jpg';
+import PicOfMe from '../../Assets/pic_of_me.jfif';
 
 const Welcome = () => {
   const [isExploding, setIsExploding] = useState(false);
