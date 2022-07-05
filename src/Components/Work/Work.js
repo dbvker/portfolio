@@ -11,8 +11,8 @@ let workData = [
     {
         title: 'Todo App',
         image: ToDoAppImg,
-        frontEndTech: ['React', 'Axios', 'Netlify', 'React Router'],
-        backEndTech: ['Node.JS', 'JWT', 'PostgreSQL', 'Knex', 'Express',],
+        frontEndTech: ['React'],
+        backEndTech: ['Node.JS', 'PostgreSQL', 'Express',],
         githubRepo: 'https://github.com/simple-todo-app',
         siteLink: 'https://todo-app-dylan.netlify.app/'
     },
