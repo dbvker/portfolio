@@ -5,6 +5,7 @@
   box-sizing: border-box;
   z-index: 10;
   position: relative;
+  padding-bottom: 40px;
 }
 
 .contact-wrapper .container {
@@ -39,10 +40,15 @@
   padding: 15px;
   font-family: 'roboto';
   cursor: pointer;
-  background: #3f091d;
+  background: rgba(0, 0, 0, 0.4);
   color: #ffffff;
   font-size: 16px;
   font-weight: 700;
+  transition: 350ms;
+}
+
+.contact-wrapper .container button:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 900px) {

@@ -13,15 +13,19 @@ function Header() {
   };
   const headerLinks = [
     {
-      title: "👨🏼‍💻️ Work",
+      title: "Work",
       href: "#work",
     },
     {
-      title: "📄 Resume",
+      title: "Resume",
       href: "#resume",
     },
     {
-      title: "💬 Contact",
+      title: "Skills",
+      href: "#skills",
+    },
+    {
+      title: "Contact",
       href: "#contact",
     },
   ];
