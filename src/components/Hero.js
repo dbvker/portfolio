@@ -22,7 +22,7 @@ const Hero = () => {
                 </nav>
             </header>
             <section className='flex flex-col items-center justify-center px-10 mx-auto max-w-7xl'>
-                <img src={portrait} className='mt-40 rounded-full h-52' alt='portrait of Dylan Baker' />
+                <img src={portrait} className='mt-20 rounded-full md:mt-40 h-52' alt='portrait of Dylan Baker' />
                 <h1 className='mt-6 text-3xl font-bold text-center transition-all duration-300 md:text-5xl'>Hey 👋, I'm Dylan!</h1>
                 <h3 className='mt-6 text-center'>💻 Full Stack Web Development</h3>
                 <h3 className='mt-4 text-center'>👱🏽 I'm Dylan, a full-stack web developer based out of Kansas City.</h3>
