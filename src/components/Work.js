@@ -4,7 +4,7 @@ const Work = () => {
     return (
         <div id='work' className='py-12 text-white bg-emerald-600'>
             <section className='flex flex-col items-center px-10 mx-auto max-w-7xl'>
-                <h2 className='mb-10 text-xl font-semibold md:text-3xl'>👨🏼‍💻️ Work</h2>
+                <h2 className='mb-10 text-2xl font-semibold md:text-3xl'>👨🏼‍💻️ Work</h2>
                 <div className='flex flex-col w-full gap-6 md:gap-[3%] text-gray-900 md:flex-row md:flex-wrap'>
                     {projects.map((project, key) => {
                         return (
