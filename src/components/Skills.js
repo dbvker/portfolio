@@ -3,7 +3,7 @@ import { skillList } from '../data/Skills';
 const Skills = () => {
     return (
         <div id='skills' className='py-12 text-gray-900 bg-gray-200'>
-            <section className='flex flex-col items-center w-full px-10 mx-auto overflow-hidden md:max-w-7xl'>
+            <section className='flex flex-col items-center w-full px-4 mx-auto overflow-hidden md:px-10 md:max-w-7xl'>
                 <h2 className='mb-10 text-2xl font-semibold md:text-3xl'>💻 Skills</h2>
                 <div className='flex flex-wrap justify-center w-screen gap-6 md:max-w-full'>
                     {skillList.map((skill, key) => {
