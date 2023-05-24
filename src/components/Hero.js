@@ -4,7 +4,7 @@ import portrait from '../assets/hero/portrait.png';
 
 const Hero = () => {
     return (
-        <div className='h-screen pb-12 text-white bg-indigo-600'>
+        <div className='min-h-screen pb-12 text-white bg-indigo-600 '>
             <header className='flex items-center justify-center p-5 mx-auto font-medium sm:justify-between text-md max-w-7xl'>
                 <div className='hidden gap-4 sm:flex'>
                     <a href='https://www.linkedin.com/in/dylanmbaker/' target='_blank' rel='noreferrer'>
