@@ -4,7 +4,7 @@ const Contact = () => {
             <section className='flex flex-col items-center px-10 mx-auto max-w-7xl'>
                 <h2 className='mb-10 text-2xl font-semibold md:text-3xl'>💬 Contact Me</h2>
                 <form action='https://formsubmit.co/dylanmbaker@yahoo.com' method='POST' className="w-full transition-all duration-300 md:w-4/6 lg:w-3/6">
-                    <div className='w-full mt-6'>
+                    <div className='w-full'>
                         <label className='block pr-4 mb-1.5 font-medium text-sm' for='name'>
                             Name
                         </label>
