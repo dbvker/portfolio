@@ -14,7 +14,7 @@ const Work = () => {
                                 <img src={project.image} alt={`${project.title} screenshot`} />
                                 <div className='flex flex-col justify-between w-full bg-black border-t bg-opacity-30 bottom-10'>
                                     <div className='flex items-center justify-between px-2 md:px-4'>
-                                        <div className='font-semibold'>{project.title}</div>
+                                        <div className='pl-2 font-semibold'>{project.title}</div>
                                         <div className='flex gap-4 py-2'>
                                             <a href={project.githubRepo} target='_blank' rel='noreferrer' className='transition-all duration-300 rounded-md hover:bg-white hover:bg-opacity-30'>
                                                 <div className='p-2 '>
@@ -28,7 +28,7 @@ const Work = () => {
                                             </a>
                                         </div>
                                     </div>
-                                    <div className='flex justify-between px-2 py-4 text-gray-900 bg-gray-200 md:px-4'>
+                                    <div className='flex justify-between px-4 py-4 text-gray-900 bg-gray-200 md:px-6'>
                                         <div className='font-semibold'>Built with:</div>
                                         <div className='flex items-center gap-2 md:gap-4'>
                                             {project.stack.map((item, key) => {
