@@ -11,16 +11,14 @@ const Work = () => {
                             <div className='relative overflow-hidden text-white rounded-lg md:w-[48.5%] md:mb-6'>
                                 <img src={project.image} alt={`${project.title} screenshot`} />
                                 <div className='flex-col justify-between w-full bg-gray-800 lex bottom-10'>
-                                    <div className='flex justify-between p-4'>
+                                    <div className='flex justify-between px-2 py-4'>
                                         <div className='font-semibold'>{project.title}</div>
-                                        <div className='flex items-center gap-4'>
+                                        <div className='flex items-center gap-2 md:gap-4'>
                                             {project.stack.map((item, key) => {
                                                 return <img src={item} alt='' className='h-6' />;
                                             })}
                                         </div>
                                     </div>
-                                {/* </div>
-                                <div> */}
                                     <div className='flex items-center h-12 border-t border-gray-600'>
                                       <button className='w-1/2 h-full transition-all duration-300 border-r border-gray-600 hover:bg-gray-600'>Github</button>
                                       <button className='w-1/2 h-full transition-all duration-300 hover:bg-gray-600'>Website</button>

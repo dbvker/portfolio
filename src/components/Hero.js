@@ -21,11 +21,11 @@ const Hero = () => {
                     <a href='#contact'>Contact</a>
                 </nav>
             </header>
-            <section className='flex flex-col items-center px-10 mx-auto max-w-7xl'>
+            <section className='flex flex-col items-center justify-center px-10 mx-auto max-w-7xl'>
                 <img src={portrait} className='mt-40 rounded-full h-52' alt='portrait of Dylan Baker' />
-                <h1 className='mt-6 text-3xl font-bold transition-all duration-300 md:text-5xl'>Hey 👋, I'm Dylan!</h1>
-                <h3 className='mt-6'>💻 Full Stack Web Development</h3>
-                <h3 className='mt-4'>👱🏽 I'm Dylan, a full-stack web developer based out of Kansas City.</h3>
+                <h1 className='mt-6 text-3xl font-bold text-center transition-all duration-300 md:text-5xl'>Hey 👋, I'm Dylan!</h1>
+                <h3 className='mt-6 text-center'>💻 Full Stack Web Development</h3>
+                <h3 className='mt-4 text-center'>👱🏽 I'm Dylan, a full-stack web developer based out of Kansas City.</h3>
                 <h4 className='mt-10'>📍 Find me here!</h4>
                 <div className='flex gap-4 mt-2'>
                     <a href='https://www.linkedin.com/in/dylanmbaker/' target='_blank' rel='noreferrer'>
