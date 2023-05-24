@@ -4,13 +4,13 @@ const Work = () => {
     return (
         <div id='work' className='py-12 text-white bg-emerald-600'>
             <section className='flex flex-col items-center px-10 mx-auto max-w-7xl'>
-                <h2 className='mb-10 text-2xl font-semibold md:text-3xl'>👨🏼‍💻️ Work</h2>
+                <h2 className='mb-10 text-2xl font-semibold md:text-3xl'>👨🏽‍💻 Work</h2>
                 <div className='flex flex-col w-full gap-6 md:gap-[3%] text-gray-900 md:flex-row md:flex-wrap'>
                     {projects.map((project, key) => {
                         return (
                             <div className='relative overflow-hidden text-white rounded-lg md:w-[48.5%] md:mb-6'>
                                 <img src={project.image} alt={`${project.title} screenshot`} />
-                                <div className='flex-col justify-between w-full bg-gray-800 lex bottom-10'>
+                                <div className='flex-col justify-between w-full border-t lex bottom-10' style={{backgroundColor: project.theme, color: project.color, borderColor: project.color}}>
                                     <div className='flex justify-between px-2 py-4'>
                                         <div className='font-semibold'>{project.title}</div>
                                         <div className='flex items-center gap-2 md:gap-4'>
@@ -19,9 +19,9 @@ const Work = () => {
                                             })}
                                         </div>
                                     </div>
-                                    <div className='flex items-center h-12 border-t border-gray-600'>
+                                    <div className='flex items-center h-12 border-t' style={{borderColor: project.color}}>
                                         <a href={project.githubRepo} target='_blank' rel='noreferrer' className='w-1/2 h-full'>
-                                            <button className='w-full h-full transition-all duration-300 border-r border-gray-600 hover:bg-gray-600'>Github</button>
+                                            <button className='w-full h-full transition-all duration-300 border-r hover:bg-gray-600' style={{borderColor: project.color}}>Github</button>
                                         </a>
                                         <a href={project.siteLink} target='_blank' rel='noreferrer' className='w-1/2 h-full'>
                                             <button className='w-full h-full transition-all duration-300 hover:bg-gray-600'>Website</button>

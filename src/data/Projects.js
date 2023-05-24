@@ -23,6 +23,8 @@ export const projects = [
       "stack": [nextjs, tailwind],
       "githubRepo": "https://github.com/ProfileLink-app",
       "siteLink": "https://profilelink.netlify.app/",
+      "theme": "#850AD6",
+      "color": "#FFFFFF"
   },
   {
       "title": "Task App",
@@ -30,6 +32,8 @@ export const projects = [
       "stack": [react, nodejs, postgresql],
       "githubRepo": "https://github.com/simple-todo-app",
       "siteLink": "https://todo-app-dylan.netlify.app/",
+      "theme": "#FFB703",
+      "color": "#111827"
   },
   {
       "title": "Restaurant Menu",
@@ -37,5 +41,7 @@ export const projects = [
       "stack": [html, css ,react, javascript],
       "githubRepo": "https://github.com/dbvker/Restaurant-Menu",
       "siteLink": "https://restaurant-menu-db.netlify.app/",
+      "theme": "#4338CA",
+      "color": "#FFFFFF"
   },
 ];
