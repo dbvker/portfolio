@@ -33,7 +33,7 @@ export const projects = [
       "githubRepo": "https://github.com/simple-todo-app",
       "siteLink": "https://todo-app-dylan.netlify.app/",
       "theme": "#FFB703",
-      "color": "#111827"
+      "color": "#FFFFFF"
   },
   {
       "title": "Restaurant Menu",
