@@ -27,7 +27,7 @@ export const projects = [
   {
       "title": "Task App",
       "image": taskApp,
-      "stack": [react, nodejs, postgresql, express],
+      "stack": [react, nodejs, postgresql],
       "githubRepo": "https://github.com/simple-todo-app",
       "siteLink": "https://todo-app-dylan.netlify.app/",
   },

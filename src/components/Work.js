@@ -20,8 +20,12 @@ const Work = () => {
                                         </div>
                                     </div>
                                     <div className='flex items-center h-12 border-t border-gray-600'>
-                                      <button className='w-1/2 h-full transition-all duration-300 border-r border-gray-600 hover:bg-gray-600'>Github</button>
-                                      <button className='w-1/2 h-full transition-all duration-300 hover:bg-gray-600'>Website</button>
+                                        <a href={project.githubRepo} target='_blank' rel='noreferrer' className='w-1/2 h-full'>
+                                            <button className='w-full h-full transition-all duration-300 border-r border-gray-600 hover:bg-gray-600'>Github</button>
+                                        </a>
+                                        <a href={project.siteLink} target='_blank' rel='noreferrer' className='w-1/2 h-full'>
+                                            <button className='w-full h-full transition-all duration-300 hover:bg-gray-600'>Website</button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
