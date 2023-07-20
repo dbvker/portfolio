@@ -10,7 +10,8 @@ import express from '../assets/skills/express-dark.svg';
 import postgresql from '../assets/skills/postgresql.svg';
 import mongodb from '../assets/skills/mongodb.svg';
 import python from '../assets/skills/python.svg';
-import fastapi from '../assets/skills/fastapi.svg';
+import c_sharp from '../assets/skills/c-sharp.svg';
+import dotnet from '../assets/skills/dotnet.svg';
 
 export const skillList = [
   { name: 'HTML', icon: html },
@@ -25,5 +26,6 @@ export const skillList = [
   { name: 'PostgreSQL', icon: postgresql },
   { name: 'MongoDB', icon: mongodb },
   { name: 'Python', icon: python },
-  { name: 'FastAPI', icon: fastapi },
+  { name: 'C#', icon: c_sharp },
+  { name: '.NET', icon: dotnet },
 ];

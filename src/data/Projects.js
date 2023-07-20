@@ -9,19 +9,17 @@ import react from '../assets/skills/react.svg';
 import nextjs from '../assets/skills/nextjs.svg';
 import tailwind from '../assets/skills/tailwind.svg';
 import nodejs from '../assets/skills/nodejs.svg';
-import express from '../assets/skills/express.svg';
 import postgresql from '../assets/skills/postgresql.svg';
-import mongodb from '../assets/skills/mongodb.svg';
-import python from '../assets/skills/python.svg';
-import fastapi from '../assets/skills/fastapi.svg';
+import c_sharp from '../assets/skills/c-sharp.svg'
+import dotnet from '../assets/skills/dotnet.svg'
 
 
 export const projects = [
   {
       "title": "ProfileLink",
       "image": profileLink,
-      "stack": [nextjs, tailwind],
-      "githubRepo": "https://github.com/ProfileLink-app",
+      "stack": [nextjs, tailwind, c_sharp, dotnet],
+      "githubRepo": "https://github.com/orgs/ProfileLink-app/repositories",
       "siteLink": "https://profilelink.netlify.app/",
       "theme": "#850AD6",
       "color": "#FFFFFF"
@@ -38,7 +36,7 @@ export const projects = [
   {
       "title": "Restaurant Menu",
       "image": restaurantMenu,
-      "stack": [html, css ,react, javascript],
+      "stack": [html, css, react, javascript],
       "githubRepo": "https://github.com/dbvker/Restaurant-Menu",
       "siteLink": "https://restaurant-menu-db.netlify.app/",
       "theme": "#4338CA",
