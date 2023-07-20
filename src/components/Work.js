@@ -32,7 +32,7 @@ const Work = () => {
                                         <div className='font-semibold'>Built with:</div>
                                         <div className='flex items-center gap-2 md:gap-4'>
                                             {project.stack.map((item, key) => {
-                                                return <img src={item} alt='' className='h-6' />;
+                                                return <img src={item} alt='' className='w-6' />;
                                             })}
                                         </div>
                                     </div>
